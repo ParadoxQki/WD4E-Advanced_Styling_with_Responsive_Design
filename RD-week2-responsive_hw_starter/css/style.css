@@ -16,17 +16,17 @@ a {
 }
 
 p {
-   font-size: 25px;
-   font-family:Arial, sans-serif;
+    font-size: 25px;
+    font-family:Arial, sans-serif;
 }
 
 img{
-  width:100%;
+    width:100%;
 }
 
 
 p{
-  text-align:center;
+    text-align:center;
 }
 
 div img{
@@ -37,12 +37,25 @@ div img{
 }
 
 div{
-  display: inline-block;
-  width: 24%;
-  margin: 5px;
-  padding: 2px;
+    display: inline-block;
+    width: 24%;
+    margin: 5px;
+    padding: 2px;
 }
-
+@media screen and (min-width: 768px) {
+    div{
+    display: inline-block;
+    width: 45vw;
+}
+    div img{
+    max-height: 30vh;
+}
+}
+@media screen and (min-width: 998px) {
+    div{
+    width: 30vw;
+}
+}
 
 
 
